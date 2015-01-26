@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="_remotes.xml" />
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-j="4" />
+  <notice>
+Your sources have been sync'd successfully.
+  </notice>
+
+  <project path="src/build-iso" name="higebu/build-iso" remote="private" />
+  <project path="src/pkgs/conntrack-tools" name="vyos/conntrack-tools" />
+  <project path="src/pkgs/ddclient" name="vyos/ddclient" />
+  <project path="src/pkgs/eventwatchd" name="vyos/eventwatchd" />
+  <project path="src/pkgs/igmpproxy" name="vyos/igmpproxy" />
+  <project path="src/pkgs/initramfs-tools" name="vyos/initramfs-tools" />
+  <project path="src/pkgs/ipset" name="vyos/ipset" />
+  <project path="src/pkgs/libcap" name="vyos/libcap" />
+  <project path="src/pkgs/libczmq" name="vyos/libczmq" />
+  <project path="src/pkgs/libmnl" name="vyos/libmnl" />
+  <project path="src/pkgs/libnetfilter-conntrack" name="vyos/libnetfilter-conntrack" />
+  <project path="src/pkgs/libnetfilter-cthelper" name="vyos/libnetfilter-cthelper" />
+  <project path="src/pkgs/libnetfilter-cttimeout" name="vyos/libnetfilter-cttimeout" />
+  <project path="src/pkgs/libnetfilter-queue" name="vyos/libnetfilter-queue" />
+  <project path="src/pkgs/libnl3" name="vyos/libnl3" />
+  <project path="src/pkgs/libzmq-constants-perl" name="vyos/libzmq-constants-perl" />
+  <project path="src/pkgs/libzmq-libzmq2-perl" name="vyos/libzmq-libzmq2-perl" />
+  <project path="src/pkgs/linux-firmware" name="vyos/linux-firmware" />
+  <project path="src/pkgs/live-initramfs" name="vyos/live-initramfs" />
+  <project path="src/pkgs/lldpd" name="vyos/lldpd" />
+  <project path="src/pkgs/netplug" name="vyos/netplug" />
+  <project path="src/pkgs/net-snmp" name="vyos/net-snmp" />
+  <project path="src/pkgs/ntp" name="vyos/ntp" />
+  <project path="src/pkgs/openssl" name="vyos/openssl" />
+  <project path="src/pkgs/pmacct" name="vyos/pmacct" />
+  <project path="src/pkgs/ppp" name="vyos/ppp" />
+  <project path="src/pkgs/radvd" name="vyos/radvd" />
+  <project path="src/pkgs/squashfs" name="vyos/squashfs" />
+  <project path="src/pkgs/squidguard" name="vyos/squidguard" />
+  <project path="src/pkgs/userspace-rcu" name="vyos/userspace-rcu" />
+  <project path="src/pkgs/vyatta-base" name="vyos/vyatta-base" />
+  <project path="src/pkgs/vyatta-bash" name="vyos/vyatta-bash" />
+  <project path="src/pkgs/vyatta-biosdevname" name="vyos/vyatta-biosdevname" />
+  <project path="src/pkgs/vyatta-busybox" name="vyos/vyatta-busybox" />
+  <project path="src/pkgs/vyatta-cfg" name="vyos/vyatta-cfg" />
+  <project path="src/pkgs/vyatta-cfg-dhcp-relay" name="vyos/vyatta-cfg-dhcp-relay" />
+  <project path="src/pkgs/vyatta-cfg-dhcp-server" name="vyos/vyatta-cfg-dhcp-server" />
+  <project path="src/pkgs/vyatta-cfg-firewall" name="vyos/vyatta-cfg-firewall" />
+  <project path="src/pkgs/vyatta-cfg-op-pppoe" name="vyos/vyatta-cfg-op-pppoe" />
+  <project path="src/pkgs/vyatta-cfg-qos" name="vyos/vyatta-cfg-qos" />
+  <project path="src/pkgs/vyatta-cfg-quagga" name="vyos/vyatta-cfg-quagga" />
+  <project path="src/pkgs/vyatta-cfg-system" name="vyos/vyatta-cfg-system" />
+  <project path="src/pkgs/vyatta-cfg-vpn" name="vyos/vyatta-cfg-vpn" />
+  <project path="src/pkgs/vyatta-cluster" name="vyos/vyatta-cluster" />
+  <project path="src/pkgs/vyatta-config-mgmt" name="vyos/vyatta-config-mgmt" />
+  <project path="src/pkgs/vyatta-config-migrate" name="vyos/vyatta-config-migrate" />
+  <project path="src/pkgs/vyatta-conntrack" name="vyos/vyatta-conntrack" />
+  <project path="src/pkgs/vyatta-conntrack-sync" name="vyos/vyatta-conntrack-sync" />
+  <project path="src/pkgs/vyatta-cron" name="vyos/vyatta-cron" />
+  <project path="src/pkgs/vyatta-dhcp3" name="vyos/vyatta-dhcp3" />
+  <project path="src/pkgs/vyatta-eventwatch" name="vyos/vyatta-eventwatch" />
+  <project path="src/pkgs/vyatta-grub" name="vyos/vyatta-grub" />
+  <project path="src/pkgs/vyatta-iproute" name="vyos/vyatta-iproute" />
+  <project path="src/pkgs/vyatta-ipv6-rtradv" name="vyos/vyatta-ipv6-rtradv" />
+  <project path="src/pkgs/vyatta-keepalived" name="vyos/vyatta-keepalived" />
+  <project path="src/pkgs/vyatta-lldp" name="vyos/vyatta-lldp" />
+  <project path="src/pkgs/vyatta-nat" name="vyos/vyatta-nat" />
+  <project path="src/pkgs/vyatta-netflow" name="vyos/vyatta-netflow" />
+  <project path="src/pkgs/vyatta-op" name="vyos/vyatta-op" />
+  <project path="src/pkgs/vyatta-op-dhcp-server" name="vyos/vyatta-op-dhcp-server" />
+  <project path="src/pkgs/vyatta-openvpn" name="vyos/vyatta-openvpn" />
+  <project path="src/pkgs/vyatta-op-firewall" name="vyos/vyatta-op-firewall" />
+  <project path="src/pkgs/vyatta-op-qos" name="vyos/vyatta-op-qos" />
+  <project path="src/pkgs/vyatta-op-quagga" name="vyos/vyatta-op-quagga" />
+  <project path="src/pkgs/vyatta-op-vpn" name="vyos/vyatta-op-vpn" />
+  <project path="src/pkgs/vyatta-quagga" name="vyos/vyatta-quagga" />
+  <project path="src/pkgs/vyatta-ravpn" name="vyos/vyatta-ravpn" />
+  <project path="src/pkgs/vyatta-strongswan" name="vyos/vyatta-strongswan" />
+  <project path="src/pkgs/vyatta-util" name="vyos/vyatta-util" />
+  <project path="src/pkgs/vyatta-vrrp" name="vyos/vyatta-vrrp" />
+  <project path="src/pkgs/vyatta-wanloadbalance" name="vyos/vyatta-wanloadbalance" />
+  <project path="src/pkgs/vyatta-watchdog" name="vyos/vyatta-watchdog" />
+  <project path="src/pkgs/vyatta-webgui" name="vyos/vyatta-webgui" />
+  <project path="src/pkgs/vyatta-webproxy" name="vyos/vyatta-webproxy" />
+  <project path="src/pkgs/vyatta-wireless" name="vyos/vyatta-wireless" />
+  <project path="src/pkgs/vyatta-wirelessmodem" name="vyos/vyatta-wirelessmodem" />
+  <project path="src/pkgs/vyatta-zone" name="vyos/vyatta-zone" />
+  <project path="src/pkgs/vyos-igmpproxy" name="vyos/vyos-igmpproxy" />
+  <project path="src/pkgs/vyos-iptables" name="vyos/vyos-iptables" />
+  <project path="src/pkgs/vyos-kernel" name="vyos/vyos-kernel" />
+  <project path="src/pkgs/vyos-nhrp" name="vyos/vyos-nhrp" />
+  <project path="src/pkgs/vyos-opennhrp" name="vyos/vyos-opennhrp" />
+  <project path="src/pkgs/vyos-open-vm-tools" name="vyos/vyos-open-vm-tools" />
+
+</manifest>
