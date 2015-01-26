@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote fetch=".." name="github"/>
+  <remote fetch="ssh://git@github.com" name="private"/>
+
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+
+  <project path="src/build-iso" name="higebu/build-iso" revision="lithium-repo-tool"/>
+  <project name="vyos/conntrack-tools" path="src/pkgs/conntrack-tools" revision="fa0e506210775233cb34513d45878991ef50aae6" upstream="refs/heads/master"/>
+  <project name="vyos/ddclient" path="src/pkgs/ddclient" revision="23bcb643b1d09e641a1ed17b79b946a4812d01a2" upstream="refs/heads/master"/>
+  <project name="vyos/eventwatchd" path="src/pkgs/eventwatchd" revision="7fe248b33f5ba853eee164b4bf07d5ba9810606c" upstream="refs/heads/master"/>
+  <project name="vyos/igmpproxy" path="src/pkgs/igmpproxy" revision="969e8110067186c94346992cdefaafcb4e28b7b8" upstream="refs/heads/master"/>
+  <project name="vyos/initramfs-tools" path="src/pkgs/initramfs-tools" revision="df5d9efb16fe75e486834efb49c756ac4ae41fb5" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-iproute" path="src/pkgs/iproute" revision="18142646aa273d21ed09deb36ac9213e455aef40" upstream="refs/heads/master"/>
+  <project name="vyos/ipset" path="src/pkgs/ipset" revision="cf231f2c147f8c1bfda2c9ebdd41108681e12ffd" upstream="refs/heads/master"/>
+  <project name="vyos/libcap" path="src/pkgs/libcap" revision="95b664a6b0ce6cb9f6ebcc67ae3cf4fbe594dee9" upstream="refs/heads/master"/>
+  <project name="vyos/libczmq" path="src/pkgs/libczmq" revision="1d74432351f0e0b0a04a7f76afade3d3e24e56ed" upstream="refs/heads/master"/>
+  <project name="vyos/libmnl" path="src/pkgs/libmnl" revision="8059abb1f9aa3647f685f9a560e3ff849293ee41" upstream="refs/heads/master"/>
+  <project name="vyos/libnetfilter-conntrack" path="src/pkgs/libnetfilter-conntrack" revision="ce1b703279e43bcb6221b042ec348ebba360c342" upstream="refs/heads/master"/>
+  <project name="vyos/libnetfilter-cthelper" path="src/pkgs/libnetfilter-cthelper" revision="25ccfd1216bc3ce8fa98f88cbf21949425b43172" upstream="refs/heads/master"/>
+  <project name="vyos/libnetfilter-cttimeout" path="src/pkgs/libnetfilter-cttimeout" revision="5b9843296ffd1ea313f7c72b55c8bab5c9ad24d2" upstream="refs/heads/master"/>
+  <project name="vyos/libnetfilter-queue" path="src/pkgs/libnetfilter-queue" revision="a535219b958ce78f868a24211a3f204e42302147" upstream="refs/heads/master"/>
+  <project name="vyos/libnl3" path="src/pkgs/libnl3" revision="cff731cc5fbb3ef9d525e0201d80d03aebafc4a0" upstream="refs/heads/master"/>
+  <project name="vyos/linux-firmware" path="src/pkgs/linux-firmware" revision="0f221bb3c68e5cae0ff616f68d10a745a95fb91f" upstream="refs/heads/master"/>
+  <project name="vyos/vyos-kernel" path="src/pkgs/linux-image" revision="afe0ce946bca15792b60144084a792fc171588ba" upstream="refs/heads/master"/>
+  <project name="vyos/live-initramfs" path="src/pkgs/live-initramfs" revision="968b5d5ea68cf274b5c6bafeb81c1428e0580cdf" upstream="refs/heads/master"/>
+  <project name="vyos/lldpd" path="src/pkgs/lldpd" revision="a4f9731b348db160e3d96db4c8a85a4b2bddd70f" upstream="refs/heads/master"/>
+  <project name="vyos/net-snmp" path="src/pkgs/net-snmp" revision="dfcb158b9015739f8f2604a7c0a7293fb8766c23" upstream="refs/heads/master"/>
+  <project name="vyos/netplug" path="src/pkgs/netplug" revision="57daf7c5b35a8f6c023c2548240b269a265cf723" upstream="refs/heads/master"/>
+  <project name="vyos/ntp" path="src/pkgs/ntp" revision="44ea48ff167182dc7b661c333b31803a5afbba2e" upstream="refs/heads/master"/>
+  <project name="vyos/openssl" path="src/pkgs/openssl" revision="14775596f36058ac1fcf7dcf237ab80ff0a00df9" upstream="refs/heads/master"/>
+  <project name="vyos/pmacct" path="src/pkgs/pmacct" revision="90bc2e66b35fd70a9a622293dd915dba443a36f4" upstream="refs/heads/master"/>
+  <project name="vyos/ppp" path="src/pkgs/ppp" revision="5945ef9d99e9284e9890385dd05b4892ab78d273" upstream="refs/heads/master"/>
+  <project name="vyos/radvd" path="src/pkgs/radvd" revision="1d815d0bdc5b07e9f8117efb583e9cd266069739" upstream="refs/heads/master"/>
+  <project name="vyos/squashfs" path="src/pkgs/squashfs" revision="7d1f24d2d54c1d94be01bd1c84ee7dfd994dc1fc" upstream="refs/heads/master"/>
+  <project name="vyos/squidguard" path="src/pkgs/squidguard" revision="d960792d4f7be6d49063bd4632ac0a1a7097faa4" upstream="refs/heads/master"/>
+  <project name="vyos/userspace-rcu" path="src/pkgs/userspace-rcu" revision="d285e16661c46a607222eb4c6e13d2d730d7c19a" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-base" path="src/pkgs/vyatta-base" revision="868e181122c51ff31ac0fc60ab9aae59e246969b" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-bash" path="src/pkgs/vyatta-bash" revision="6de011a7cd8d408248d5875b759cf64f874f2081" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-biosdevname" path="src/pkgs/vyatta-biosdevname" revision="b19d2164d8fdb8913ac0429523cda80bec76f4c1" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-busybox" path="src/pkgs/vyatta-busybox" revision="1d07443d585647dfbbaf42596ed052c88e520354" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg" path="src/pkgs/vyatta-cfg" revision="c66c7a29c87a161e8a57caad6ec1967f9dcaa97b" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-dhcp-relay" path="src/pkgs/vyatta-cfg-dhcp-relay" revision="cb8ef139982e3bae73d876cf37277dbfea6a2438" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-dhcp-server" path="src/pkgs/vyatta-cfg-dhcp-server" revision="ed7c10135399320df5261ef8a2336cf8c28479fe" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-firewall" path="src/pkgs/vyatta-cfg-firewall" revision="5c5c681ba53ec0f0a120806080071c0633812cf8" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-op-pppoe" path="src/pkgs/vyatta-cfg-op-pppoe" revision="916c8642ec23731bc674ff0cb399b1854368acc9" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-qos" path="src/pkgs/vyatta-cfg-qos" revision="f7b4cc627f781964cf8cd4655e2c5257e96e8af8" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-quagga" path="src/pkgs/vyatta-cfg-quagga" revision="e0feba1bb0851d80388c085e7e4c45da84f55f74" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-system" path="src/pkgs/vyatta-cfg-system" revision="e256ce86052957f41955470079820f3b5e29e44b" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cfg-vpn" path="src/pkgs/vyatta-cfg-vpn" revision="48fd4917ce8d81a1ade542bde60ee03a651f4e39" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cluster" path="src/pkgs/vyatta-cluster" revision="a08c9a5360469362ad920367e948d0e62379c701" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-config-mgmt" path="src/pkgs/vyatta-config-mgmt" revision="7d2fb9ce7a44c097bb54e12914c62a6f163cac21" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-config-migrate" path="src/pkgs/vyatta-config-migrate" revision="55534ba7f6e51a159e62318cdc55ef3d039b6352" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-conntrack" path="src/pkgs/vyatta-conntrack" revision="410023fd604af49434ed5039c99c7ee6abc99b20" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-conntrack-sync" path="src/pkgs/vyatta-conntrack-sync" revision="170eb7e8d43b089199e6878f02789dacc0872054" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-cron" path="src/pkgs/vyatta-cron" revision="6ce70dd9afc1008ea62472839fd463f60df49905" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-dhcp3" path="src/pkgs/vyatta-dhcp3-client" revision="858a2dcf61bb3603dd8743a45e150b614952c621" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-eventwatch" path="src/pkgs/vyatta-eventwatch" revision="9ecc49d837ca1f430520bc5361d25c981001f6e5" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-grub" path="src/pkgs/vyatta-grub" revision="5d72d8c3429e1682730b5e6d3fd882c4501cd0e8" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-ipv6-rtradv" path="src/pkgs/vyatta-ipv6-rtradv" revision="dfe7094689e5cc074d9ef6f1032bcda79e5930ed" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-keepalived" path="src/pkgs/vyatta-keepalived" revision="65b7903bc2c6b60c6c8c7f205473c59322a86797" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-lldp" path="src/pkgs/vyatta-lldp" revision="908096231fbd1ab0b0276c0807aeb1e1a677d8c9" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-nat" path="src/pkgs/vyatta-nat" revision="44318639ec45726d578a15f054a6325b2061909a" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-netflow" path="src/pkgs/vyatta-netflow" revision="04ea611e9f169c09d916a42de7a2c558747313db" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-op" path="src/pkgs/vyatta-op" revision="34ae26d8b6423eaba2d3ad54943665cbd343a256" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-op-dhcp-server" path="src/pkgs/vyatta-op-dhcp-server" revision="1006a1a2518c6721ea2370ac52ffc7a9311d4403" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-op-firewall" path="src/pkgs/vyatta-op-firewall" revision="3b1e4db385471a1334fb4c0f7c57ff4f06922e05" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-op-qos" path="src/pkgs/vyatta-op-qos" revision="cd9c2fa6ec44453e894c6f80cde4134f10dd7255" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-op-quagga" path="src/pkgs/vyatta-op-quagga" revision="fa30a502a13c4f8f1f945b569aa65944f76b7a4b" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-op-vpn" path="src/pkgs/vyatta-op-vpn" revision="2a4f9d3f88f7107ba93957cdd3eb9f75cb7e4ed0" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-openvpn" path="src/pkgs/vyatta-openvpn" revision="dcc9aa2873b2ebfd281697dbe949394572887f2c" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-quagga" path="src/pkgs/vyatta-quagga" revision="b0cac06a3ccbd1fe8807007653b7fc57e4e8cb0d" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-ravpn" path="src/pkgs/vyatta-ravpn" revision="998231cd70a8c6211cb5833a4b2de00caa12bd51" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-strongswan" path="src/pkgs/vyatta-strongswan" revision="a7e23ff64e3d9af922e0910cec36020fbc476c40" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-util" path="src/pkgs/vyatta-util" revision="67b6b95cc2b867b9062a02091635a924971abc8c" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-vrrp" path="src/pkgs/vyatta-vrrp" revision="34d3bbaed4d2ac870d1aa1599d2a969846b313fe" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-wanloadbalance" path="src/pkgs/vyatta-wanloadbalance" revision="593400a36c74cc158d6e89b5aef2cda874295c39" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-watchdog" path="src/pkgs/vyatta-watchdog" revision="a7dd11c3bccf6c8a44fd78636fd18521f4322e1d" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-webgui" path="src/pkgs/vyatta-webgui" revision="7e6710634ab1c2c9a221f490ee785cba4f3042ac" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-webproxy" path="src/pkgs/vyatta-webproxy" revision="7b781d5c27f65df5c7f785f31f36f9b6565aa8dd" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-wireless" path="src/pkgs/vyatta-wireless" revision="4dfac331c3643c3bdef42850ba7d2445649643c0" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-wirelessmodem" path="src/pkgs/vyatta-wirelessmodem" revision="91aec897dbd54cba675da2cecead3494dfaae7cc" upstream="refs/heads/master"/>
+  <project name="vyos/vyatta-zone" path="src/pkgs/vyatta-zone" revision="9d5b0f49743ce3e4c21605acaddbb1346934d69c" upstream="refs/heads/master"/>
+  <project name="vyos/vyos-igmpproxy" path="src/pkgs/vyos-igmpproxy" revision="7ffd2252f53665893017cf2a0480be163dbe4b42" upstream="refs/heads/master"/>
+  <project name="vyos/vyos-iptables" path="src/pkgs/vyos-iptables" revision="521e16df32821e14386c27e1c2826591140a49f9" upstream="refs/heads/master"/>
+  <project name="vyos/vyos-nhrp" path="src/pkgs/vyos-nhrp" revision="a7229eaf8c686e710cb0603bfe5bd2dfa837b1e5" upstream="refs/heads/master"/>
+  <project name="vyos/vyos-open-vm-tools" path="src/pkgs/vyos-open-vm-tools" revision="6da8f151031c5dabbfc719a58f31eb29d94eb58b" upstream="refs/heads/master"/>
+  <project name="vyos/vyos-opennhrp" path="src/pkgs/vyos-opennhrp" revision="33aee129408f59106f13b993c41533fffc54861e" upstream="refs/heads/master"/>
+
+</manifest>
